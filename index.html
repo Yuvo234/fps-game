@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mouse Lock FPS</title>
+  <style>
+    body, html { margin: 0; overflow: hidden; height: 100%; background: #111; }
+    canvas { display: block; background: #333; }
+    #startBtn {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 20px 40px;
+      font-size: 24px;
+      cursor: pointer;
+      z-index: 2;
+    }
+  </style>
+</head>
+<body>
+  <button id="startBtn">Click to Play</button>
+  <canvas id="gameCanvas" width="800" height="600"></canvas>
+  <script src="main.js"></script>
+</body>
+</html>
